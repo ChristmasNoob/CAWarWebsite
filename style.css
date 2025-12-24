@@ -1,0 +1,45 @@
+body {
+    background-color: #444047;
+  }
+
+  h1 {
+    color: rgb(95, 154, 255);
+  }
+  h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  h2 {
+    color: rgb(95, 154, 255);
+  }
+  h2 {
+    font-family: "Lucida Console", "Courier New", monospace ;
+  }
+
+  p {
+    color: rgb(95, 154, 255);
+  }
+  p {
+    font-size: 18px;
+  }
+  p {
+	font-family: Consolas,monaco,monospace; 
+  }
+  a {
+    font-size: 24px;
+  }
+  hr {
+    color: #efbf04
+  }
+  a {
+    color: #f28ab4
+  }
+  ul {
+    color:rgb(95, 154, 255);
+  }
+  ul {
+    font-family: Consolas,monaco,monospace; 
+    }
+  .test {
+    background-color: #efbf04;
+  }
