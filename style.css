@@ -3,17 +3,17 @@ body {
   }
 
   h1 {
-    color: rgb(95, 154, 255);
+    color: #5f9aff;
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
   h2 {
-    color: rgb(95, 154, 255);
+    color: #5f9aff;
     font-family: "Lucida Console", "Courier New", monospace ;
   }
 
   p {
-    color: rgb(95, 154, 255);
+    color: #5f9aff;
     font-size: 18px;
     font-family: Consolas,monaco,monospace;
   }
@@ -27,23 +27,44 @@ body {
     color: #efbf04
   }
   ul {
-    color:rgb(95, 154, 255);
+    color: #5f9aff;
     font-family: Consolas,monaco,monospace;
     font-size: 18px;
   }
 
   ol {
-    color:rgb(95, 154, 255);
+    color: #5f9aff;
     font-size: 18px;
     font-family: Consolas,monaco,monospace;
   }
 
   td {
-    color:rgb(95, 154, 255);
+    color: #5f9aff;
   }
 
   th {
     font-size: 20px;
-    color:rgb(95, 154, 255);
+    color: #5f9aff;
     font-family: Consolas,monaco,monospace;
   }
+
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 355px;
+  align-content: flex-start;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.box{
+  width: 300px;
+  height: 325px;
+  font-size: 18px;
+  font-family: Consolas,monaco,monospace;
+  text-align: center;
+  border-radius: 15px;
+  border: 2px solid #efbf04;
+  background-color: #444047;
+  color: #5f9aff;
+}
